@@ -16,3 +16,10 @@
 | **Tokenizer + LSTM**       | 數字化文本序列，保留序列上下文 | 長短期記憶神經網絡           | 80%-88%       | 能捕捉文本序列特徵，適合時間序列或長文本        | 訓練成本中等，對長文本可能有梯度消失問題         | 支持（顯著加速，必要）   |
 
 # 3. 程式
+
+1. TF-IDF + Randon_forest (助教提供 , 有稍微改一些)
+2. TF-IDF + Boosting (XGBoost) w/GPU
+3. Word2Vec + 隨機森林
+4. Word2Vec + CNN  w/GPU
+5. BERT 嵌入 + Transformer w/GPU
+6. LSTM + TensorFlow  Tokenizer
